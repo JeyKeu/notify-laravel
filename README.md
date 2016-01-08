@@ -1,5 +1,4 @@
 # Notify for Laravel
-=======
 
 A notification system for Laravel.
 
