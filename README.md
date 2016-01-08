@@ -1,10 +1,10 @@
+<<<<<<< HEAD
 # Notify for Laravel
+=======
+# JeyKeu Notify for PHP
+>>>>>>> 368c5537ce1af853e6493a6356db794f1deb81ab
 
 A notification system for Laravel.
-
-##Demo
-
-Here's a [Demo](http://notify.junaidqadir.com/) using Native PHP.
 
 ## Install
 
