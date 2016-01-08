@@ -1,0 +1,38 @@
+{
+  "name": "jeykeu/notify-laravel",
+  "description": "A notification system for Laravel.",
+  "keywords": [
+    "jeykeu",
+    "notify",
+    "bootstrap",
+    "laravel"
+  ],
+  "homepage": "https://github.com/JeyKeu/notify-laravel",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Junaid Qadir Baloch",
+      "email": "shekhanzai.baloch@gmail.com",
+      "homepage": "http://junaidbaloch.com",
+      "role": "Developer"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=5.4.0"
+  },
+  "require-dev": {
+    "phpspec/phpspec": "~2.0"
+  },
+  "config": {
+    "bin-dir": "bin"
+  },
+  "autoload": {
+    "psr-4": {
+      "\\JeyKeu\\Notify": [
+        "src",
+        "tests"
+      ]
+    }
+  }
+}
