@@ -23,10 +23,10 @@ class NotifyServiceProvider extends ServiceProvider
         Event::listen('laravel.composing', function ( $event ) {
             dd($event);
         });
-        $this->loadViewsFrom(__DIR__ . '/../../views', 'notify');
+        $this->loadViewsFrom(__DIR__ . '/../views', 'notify');
 
         $this->publishes([
-            __DIR__ . '/../../views' => base_path('resources/views/vendor/notify')
+            __DIR__ . '/../views' => base_path('resources/views/vendor/notify')
         ]);
     }
 
